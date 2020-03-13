@@ -1,0 +1,7 @@
+3 yrs experience in ASP .NET C# development.
+Strong understanding of object-oriented programming, design patterns principles.
+C# .NET, ASP .NET, MVC, jQuery, Angular, Entity framework, SQL Server/ SQL Azure, Redis
+Familirity with Agile delivery model.
+Strong grasp of security principles  how they apply to E-Commerce applications.
+Knowledge in Cloud development (Azure) mobile development is a definite plus.
+Self-driven team player with ability to work independently multi-task.

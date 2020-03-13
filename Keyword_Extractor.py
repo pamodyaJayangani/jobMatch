@@ -5,13 +5,20 @@ import numpy as np
 import nltk
 import operator
 import math
+from nltk.corpus import stopwords
+# nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('averaged_perceptron_tagger')
+from nltk.stem.wordnet import WordNetLemmatizer
+# nltk.download('wordnet')
+from nltk.corpus import wordnet
 
 class Extractor():
 	def __init__(self):
 		self.softskills=self.load_skills('softskills.txt')
 		self.hardskills=self.load_skills('hardskills.txt')
-		self.jb_distribution=self.build_ngram_distribution(sys.argv[-2])
-		self.cv_distribution=self.build_ngram_distribution(sys.argv[-1])
+		self.jb_distribution=self.build_ngram_distribution('tesla_job_description.txt')
+		self.cv_distribution=self.build_ngram_distribution('my_resume1.txt')
 		self.table=[]
 		self.outFile="Extracted_keywords.csv"
 
@@ -101,35 +108,48 @@ class Extractor():
 			print("Cosine similarity for "+type+" skills: "+str(self.measure3(v1,v2)))		
 
 
-	def makeTable(self):		
+	def makeTable(self):
+		print("START")
 		#I am interested in verbs, nouns, adverbs, and adjectives
 		parts_of_speech=['CD','JJ','JJR','JJS','MD','NN','NNS','NNP','NNPS','RB','RBR','RBS','VB','VBD','VBG','VBN','VBP','VBZ']
 		graylist=["you", "will"]
 		tmp_table=[]
 		#look if the skills are mentioned in the job description and then in your cv
-		
+		lemma = WordNetLemmatizer()
+
 		for skill in self.hardskills:
-			if skill in self.jb_distribution:
-				count_jb=self.jb_distribution[skill]
-				if skill in self.cv_distribution:
-					count_cv=self.cv_distribution[skill]
-				else:
-					count_cv=0
-				m1=self.measure1(count_jb,count_cv)
-				m2=self.measure2(count_jb,count_cv)
-				tmp_table.append(['hard',skill,count_jb,count_cv,m1,m2])
+			synonyms = []
+			for syn in wordnet.synsets(skill):
+				for l in syn.lemmas():
+					synonyms.append(l.name())
+			for skill in set(synonyms):
+				print("2 : " + skill)
+				if skill in self.jb_distribution:
+					count_jb=self.jb_distribution[skill]
+					if skill in self.cv_distribution:
+						count_cv=self.cv_distribution[skill]
+					else:
+						count_cv=0
+					m1=self.measure1(count_jb,count_cv)
+					m2=self.measure2(count_jb,count_cv)
+					tmp_table.append(['hard',skill,count_jb,count_cv,m1,m2])
 
 		for skill in self.softskills:
-			if skill in self.jb_distribution:
-				count_jb=self.jb_distribution[skill]
-				if skill in self.cv_distribution:
-					count_cv=self.cv_distribution[skill]
-				else:
-					count_cv=0
-				m1=self.measure1(count_jb,count_cv)
-				m2=self.measure2(count_jb,count_cv)
-				tmp_table.append(['soft',skill,count_jb,count_cv,m1,m2])
-						
+			synonyms = []
+			for syn in wordnet.synsets(skill):
+				for l in syn.lemmas():
+					synonyms.append(l.name())
+			for skill in set(synonyms):
+				if skill in self.jb_distribution:
+					count_jb=self.jb_distribution[skill]
+					if skill in self.cv_distribution:
+						count_cv=self.cv_distribution[skill]
+					else:
+						count_cv=0
+					m1=self.measure1(count_jb,count_cv)
+					m2=self.measure2(count_jb,count_cv)
+					tmp_table.append(['soft',skill,count_jb,count_cv,m1,m2])
+
 
 		#And now for the general language of the job description:
 		#Sort the distribution by the words most used in the job description
@@ -137,19 +157,24 @@ class Extractor():
 		general_language = sorted(self.jb_distribution.items(), key=operator.itemgetter(1),reverse=True)
 		for tuple in general_language:
 			skill = tuple[0]
+
 			if skill in self.hardskills or skill in self.softskills or skill in graylist:
 				continue
 			count_jb = tuple[1]
-			tokens=nltk.word_tokenize(skill)
-			parts=nltk.pos_tag(tokens)
-			if all([parts[i][1]in parts_of_speech for i in range(len(parts))]):
-				if skill in self.cv_distribution:
-					count_cv=self.cv_distribution[skill]
-				else:
-					count_cv=0
-				m1=self.measure1(count_jb,count_cv)
-				m2=self.measure2(count_jb,count_cv)
-				tmp_table.append(['general',skill,count_jb,count_cv,m1,m2])
+			stop = set(stopwords.words('english'))
+
+			if skill not in stop:
+
+				tokens=nltk.word_tokenize(skill)
+				parts=nltk.pos_tag(tokens)
+				if all([parts[i][1]in parts_of_speech for i in range(len(parts))]):
+					if skill in self.cv_distribution:
+						count_cv=self.cv_distribution[skill]
+					else:
+						count_cv=0
+					m1=self.measure1(count_jb,count_cv)
+					m2=self.measure2(count_jb,count_cv)
+					tmp_table.append(['general',skill,count_jb,count_cv,m1,m2])
 		self.table=tmp_table
 
 
@@ -163,5 +188,6 @@ def main():
 
 
 if __name__ == "__main__":
+	# print("*******")
     main()
 		

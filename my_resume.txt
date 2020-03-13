@@ -1,0 +1,138 @@
+PROFILE
+A confident and reliable individual with 10+ years of extensive practical experience of working with software applications and resolving any support issues that are raised. Possessing a proven ability to administer and control the operation, configuration, implementation and maintenance of computer based information systems, as well as having an eye for detail and able to multi-task under pressure. Ability to reduce manual invention by shell scripting and automation. An excellent communicator, can relate well with people at all levels and has the flexibility of working well as part of a team and on my own.
+
+
+AWARDS
+* Best Performer Virtusa 2015
+* Best Innovator Virtusa 2017
+
+CERTIFICATION
+* AWS
+* ITIL
+* Oracle Certified Associate - OCA
+* Sun Certified Java Programmer - SCJP
+* Red Hat Certified Technician
+* Project Management Professional
+* Oracle Administration Workshop I & II
+
+MEMBERSHIP
+* MBSC
+* MIEEE
+
+CORE QUALIFICATION
+* SQL understanding
+o Oracle
+o MySQL
+* Programming knowledge
+o PHP
+o Java
+o VB
+o HTML
+* Shell Scripting
+o Linux/ Unix
+o AIX
+o PowerShell
+* Ticket management
+o Remedy
+o Service Now
+o Jira
+* Data processing
+* Quality assurance
+* Document control
+* Root cause analysis
+* Problem solving
+* Software release management
+* Team player
+* Communication skill
+SENIOR CONSULTANT TECHNOLOGY SERVICES
+MBA, BIT UCSC, BSc Special Hons, ITIL, OCA, SCJP
+EDUCATION
+AWS
+Amazon Web Services
+2019
+AWS Certified Solutions Architect – Associate
+
+ITIL® Foundation
+IT Infrastructure Library
+2017 - 2017
+PeopleCert AXELOS
+
+OCA
+Oracle Certified Associate
+2008 - 2009
+Oracle University
+
+SCJP
+Sun Certified Java Programmer
+2008 - 2009
+Sun Micro System
+
+RHCT
+Red Hat Certified Technician
+2008 - 2009
+Red Hat
+
+MBA
+Master of Business Administration, Management Information Systems
+2009 - 2011
+Sikkim Manipal University India
+
+BIT
+Bachelor of Information Technology
+2002 - 2007
+University of Colombo School of Computing - UCSC
+
+BSc Special Hons in IT
+2002 - 2005
+Sri Lanka Institute of Information Technology - SLIIT
+WORK EXPERIENCE
+Virtusa CSGi - Senior Consultant
+April 2016 – Present
+
+* Working with MTN Rating, Billing, Interconnect Telco application in a production, mission critical environment diagnosing complex user, application and/or systems problems
+* Responding to unplanned incidents and developing means to reduce downtime and minimize customer impact. This position requires participation in On-Call rotation.
+* Developed and implemented web based monitoring dashboard.
+
+
+Virtusa CSGi - Consultant
+July 2015 – April 2016
+
+* Ensure overall proper MTN product maintenance and all aspects of achieving agreed SLAs (Service Level Agreement) KPIs (Key Performance Indicators) and PPIs (Producer Price Index)
+* Working with various teams to prepare for supporting new and/or highly integrated products and platforms
+* Developed and implemented System/Application Alerts.
+
+Virtusa Citi – Associate Consultant
+September 2013 – July 2015
+
+* Perform system health checks and Monitor Sever and Database Alerts.
+* Respond and provide solutions to customer request within given SLA time line. 
+* Daily/Monthly/Weekly Report Generation and Automation (Macro
+* programming)
+* Designed and Deployed Citi Support Dashboard/Reporting tool & Incident Tracker
+
+Informatics International Limited Etisalat Senior Business Solutions Engineer
+October 2011 - October 2013
+
+* Provide Support for more than 10 Telecom customers around the world.
+* Coordinate with clients regarding the issues and provide timely updates.
+* Incident management.
+* Remote and onsite hand holding of clients during live operations and post implementation phases to resolve business issues within the agreed SLA’s
+
+Just In Time Holdings (Pvt) Ltd SLT - Engineer Application Support
+August 2009 - October 2011
+
+* Manage and troubleshoot internal environments.
+* Conduct specialized and technical testing
+* Package and deploy/implement & Test software releases
+* Automate and streamline application operations Competencies
+* Designed and Deployed web based HRM system 
+
+Dialog Telekom - Executive
+Feb 2007 – August 2009
+
+* Daily and Monthly Rating, Billing and Loyalty related Reports generation,
+* Operations, application support, Reporting and Administration
+* Created a Excel Macro based system to compare files receive for Mediation from different server locations
+
+
+

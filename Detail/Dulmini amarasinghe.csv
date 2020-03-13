@@ -1,0 +1,95 @@
+type,skill,job,cv
+hard,development,3.0,0.0
+general,net,3.0,0.0
+hard,c,2.0,5.0
+general,principles,2.0,0.6532892638180412
+general,asp,2.0,0.0
+general,strong,2.0,0.0
+general,asp net,2.0,0.0
+general,,1.0,627.0
+soft,team,1.0,3.0
+hard,mobile,1.0,2.0
+soft,experience,1.0,2.0
+general,knowledge,1.0,2.0
+general,work,1.0,2.0
+hard,programming,1.0,1.0
+hard,design,1.0,1.0
+general,model,1.0,1.0
+general,patterns,1.0,0.757063948871306
+general,years,1.0,0.6825619465735611
+general,principles ,1.0,0.6532892638180412
+hard,applications,1.0,0.6525519983015443
+general,years experience,1.0,0.6032751187463798
+general,patterns principles,1.0,0.5883617880741181
+general,ecommerce applications,1.0,0.5721705634681591
+general,security principles,1.0,0.5712144462516284
+general,security principles ,1.0,0.5712144462516284
+hard,design patterns,1.0,0.0
+hard,3 years,1.0,0.0
+soft,team player,1.0,0.0
+soft,ability,1.0,0.0
+general,3,1.0,0.0
+general,understanding,1.0,0.0
+general,objectoriented,1.0,0.0
+general,mvcjqueryangularentity,1.0,0.0
+general,frameworksql,1.0,0.0
+general,serversql,1.0,0.0
+general,azureredis,1.0,0.0
+general,familirity,1.0,0.0
+general,agile,1.0,0.0
+general,delivery,1.0,0.0
+general,grasp,1.0,0.0
+general,security,1.0,0.0
+general,apply,1.0,0.0
+general,ecommerce,1.0,0.0
+general,cloud,1.0,0.0
+general,azure,1.0,0.0
+general,definite,1.0,0.0
+general,selfdriven,1.0,0.0
+general,player,1.0,0.0
+general,independently,1.0,0.0
+general,multitask,1.0,0.0
+general,net c,1.0,0.0
+general,c development,1.0,0.0
+general,strong understanding,1.0,0.0
+general,objectoriented programming,1.0,0.0
+general,programming design,1.0,0.0
+general,c net,1.0,0.0
+general,net asp,1.0,0.0
+general,net mvcjqueryangularentity,1.0,0.0
+general,mvcjqueryangularentity frameworksql,1.0,0.0
+general,frameworksql serversql,1.0,0.0
+general,serversql azureredis,1.0,0.0
+general,agile delivery,1.0,0.0
+general,delivery model,1.0,0.0
+general,strong grasp,1.0,0.0
+general,cloud development,1.0,0.0
+general,development azure,1.0,0.0
+general,azure mobile,1.0,0.0
+general,mobile development,1.0,0.0
+general,development is,1.0,0.0
+general,selfdriven team,1.0,0.0
+general,work independently,1.0,0.0
+general,independently multitask,1.0,0.0
+general,3 years experience,1.0,0.0
+general,asp net c,1.0,0.0
+general,net c development,1.0,0.0
+general,objectoriented programming design,1.0,0.0
+general,programming design patterns,1.0,0.0
+general,design patterns principles,1.0,0.0
+general,c net asp,1.0,0.0
+general,net asp net,1.0,0.0
+general,asp net mvcjqueryangularentity,1.0,0.0
+general,net mvcjqueryangularentity frameworksql,1.0,0.0
+general,mvcjqueryangularentity frameworksql serversql,1.0,0.0
+general,frameworksql serversql azureredis,1.0,0.0
+general,agile delivery model,1.0,0.0
+general,cloud development azure,1.0,0.0
+general,development azure mobile,1.0,0.0
+general,azure mobile development,1.0,0.0
+general,mobile development is,1.0,0.0
+general,selfdriven team player,1.0,0.0
+general,work independently multitask,1.0,0.0
+hard,3 yrs,0.76,0.0
+hard,r,0.5860944208871091,0.0
+hard,datadriven,0.5504728385345028,0.0

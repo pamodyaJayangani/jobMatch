@@ -1,0 +1,95 @@
+type,skill,job,cv
+hard,development,3.0,0.6764167679390687
+general,net,3.0,0.6237516459649993
+general,strong,2.0,1.0
+hard,c,2.0,0.0
+general,asp,2.0,0.0
+general,principles,2.0,0.0
+general,asp net,2.0,0.0
+general,,1.0,89.0
+soft,ability,1.0,5.0
+general,knowledge,1.0,3.0
+general,work,1.0,3.0
+soft,team,1.0,2.0
+soft,experience,1.0,1.0
+hard,mobile,1.0,0.7744449172040154
+general,model,1.0,0.7516576089258598
+general,ecommerce,1.0,0.7410428623988771
+general,azure,1.0,0.6843574969812943
+general,delivery,1.0,0.6807571284393168
+hard,design,1.0,0.671603259087774
+general,understanding,1.0,0.6686947812256439
+general,definite,1.0,0.6621695204633297
+general,multitask,1.0,0.6600363128982683
+general,agile,1.0,0.6590047132762491
+general,cloud,1.0,0.6552734617898668
+general,azure mobile,1.0,0.650041570650434
+general,player,1.0,0.6473615776581918
+general,grasp,1.0,0.6386713566731598
+general,agile delivery,1.0,0.6326145269068345
+general,mobile development,1.0,0.6248522864342808
+general,agile delivery model,1.0,0.6225187678239362
+general,azure mobile development,1.0,0.6128020407759129
+general,security,1.0,0.6120451716106412
+general,development azure mobile,1.0,0.6112775856953429
+general,net c development,1.0,0.6077059634580171
+general,development azure,1.0,0.6074564167592583
+general,delivery model,1.0,0.604828386513058
+general,familirity,1.0,0.6024695093515702
+general,strong grasp,1.0,0.5931740753087407
+general,cloud development azure,1.0,0.5929354082390749
+general,cloud development,1.0,0.5914742769048841
+hard,programming,1.0,0.5872844010531936
+general,strong understanding,1.0,0.586808454783811
+general,net c,1.0,0.5829958719950924
+general,mvcjqueryangularentity,1.0,0.5746953437071468
+general,mobile development is,1.0,0.5613835976360554
+hard,3 years,1.0,0.0
+hard,applications,1.0,0.0
+hard,design patterns,1.0,0.0
+soft,team player,1.0,0.0
+general,3,1.0,0.0
+general,years,1.0,0.0
+general,objectoriented,1.0,0.0
+general,patterns,1.0,0.0
+general,frameworksql,1.0,0.0
+general,serversql,1.0,0.0
+general,azureredis,1.0,0.0
+general,apply,1.0,0.0
+general,selfdriven,1.0,0.0
+general,independently,1.0,0.0
+general,years experience,1.0,0.0
+general,c development,1.0,0.0
+general,objectoriented programming,1.0,0.0
+general,programming design,1.0,0.0
+general,patterns principles,1.0,0.0
+general,c net,1.0,0.0
+general,net asp,1.0,0.0
+general,net mvcjqueryangularentity,1.0,0.0
+general,mvcjqueryangularentity frameworksql,1.0,0.0
+general,frameworksql serversql,1.0,0.0
+general,serversql azureredis,1.0,0.0
+general,security principles,1.0,0.0
+general,principles ,1.0,0.0
+general,ecommerce applications,1.0,0.0
+general,development is,1.0,0.0
+general,selfdriven team,1.0,0.0
+general,work independently,1.0,0.0
+general,independently multitask,1.0,0.0
+general,3 years experience,1.0,0.0
+general,asp net c,1.0,0.0
+general,objectoriented programming design,1.0,0.0
+general,programming design patterns,1.0,0.0
+general,design patterns principles,1.0,0.0
+general,c net asp,1.0,0.0
+general,net asp net,1.0,0.0
+general,asp net mvcjqueryangularentity,1.0,0.0
+general,net mvcjqueryangularentity frameworksql,1.0,0.0
+general,mvcjqueryangularentity frameworksql serversql,1.0,0.0
+general,frameworksql serversql azureredis,1.0,0.0
+general,security principles ,1.0,0.0
+general,selfdriven team player,1.0,0.0
+general,work independently multitask,1.0,0.0
+hard,3 yrs,0.76,0.0
+hard,r,0.5860944208871091,0.0
+hard,datadriven,0.5504728385345028,0.0
