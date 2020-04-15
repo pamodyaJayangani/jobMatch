@@ -17,12 +17,12 @@ general,grasp,1.0,0.5773220869158128
 soft,team,1.0,0.564254414895081
 general,years,1.0,0.5623320611175204
 general,work,1.0,0.5505496504093241
-hard,programming,1.0,0.0
-hard,applications,1.0,0.0
-hard,mobile,1.0,0.0
-hard,design patterns,1.0,0.0
-hard,3 years,1.0,0.0
 hard,design,1.0,0.0
+hard,design patterns,1.0,0.0
+hard,mobile,1.0,0.0
+hard,applications,1.0,0.0
+hard,3 years,1.0,0.0
+hard,programming,1.0,0.0
 soft,team player,1.0,0.0
 soft,ability,1.0,0.0
 general,3,1.0,0.0

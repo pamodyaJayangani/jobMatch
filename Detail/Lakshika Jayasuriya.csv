@@ -11,8 +11,8 @@ soft,team,1.0,10.0
 general,agile,1.0,4.0
 general,work,1.0,4.0
 general,knowledge,1.0,3.0
-hard,applications,1.0,2.0
 hard,mobile,1.0,2.0
+hard,applications,1.0,2.0
 soft,experience,1.0,2.0
 hard,design,1.0,1.0
 soft,ability,1.0,1.0
@@ -20,9 +20,9 @@ general,years,1.0,1.0
 general,delivery,1.0,1.0
 general,azure,1.0,0.5685327244257263
 general,serversql,1.0,0.5575675492238581
-hard,programming,1.0,0.0
 hard,design patterns,1.0,0.0
 hard,3 years,1.0,0.0
+hard,programming,1.0,0.0
 soft,team player,1.0,0.0
 general,3,1.0,0.0
 general,understanding,1.0,0.0

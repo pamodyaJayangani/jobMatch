@@ -18,6 +18,7 @@ import PyPDF2
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from Job_Match import Extractor
+
 import xlwt
 from xlwt import Workbook
 warnings.filterwarnings(action='ignore', category=UserWarning, module='gensim')
@@ -53,8 +54,8 @@ class ResultElementTest:
         sheet1.write(0, 1, "Hard Skills")
         sheet1.write(0, 2, "Soft skills")
         sheet1.write(0, 3, "General")
-
-        os.chdir('D:\\5THYEAR\\FYP\\DataSet\\OFS\\KnownCvs')
+        sheet1.write(0, 4, "Personality")
+        os.chdir('D:\\5THYEAR\\FYP\\DataSet\\OFS\\1')
         # os.chdir('D:\\5THYEAR\\FYP\\DataSet\\OFS\\Test')
         print("**********88888")
         for file in glob.glob('**/*.pdf', recursive=True):

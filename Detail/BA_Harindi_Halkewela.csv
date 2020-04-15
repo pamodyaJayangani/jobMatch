@@ -6,17 +6,16 @@ general,asp,2.0,0
 general,strong,2.0,0
 general,principles,2.0,0
 general,asp net,2.0,0
-general,,1.0,1
-hard,programming,1.0,0
-hard,applications,1.0,0
-hard,mobile,1.0,0
-hard,design patterns,1.0,0
-hard,3 years,1.0,0
 hard,design,1.0,0
-soft,team,1.0,0
-soft,experience,1.0,0
+hard,design patterns,1.0,0
+hard,mobile,1.0,0
+hard,applications,1.0,0
+hard,3 years,1.0,0
+hard,programming,1.0,0
 soft,team player,1.0,0
 soft,ability,1.0,0
+soft,team,1.0,0
+soft,experience,1.0,0
 general,3,1.0,0
 general,years,1.0,0
 general,understanding,1.0,0
@@ -32,6 +31,7 @@ general,delivery,1.0,0
 general,model,1.0,0
 general,grasp,1.0,0
 general,security,1.0,0
+general,,1.0,0
 general,apply,1.0,0
 general,ecommerce,1.0,0
 general,knowledge,1.0,0

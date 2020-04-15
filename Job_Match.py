@@ -21,6 +21,7 @@ import xlwt
 from xlwt import Workbook
 # from FileWriter import ResultElementTest
 from xlrd import open_workbook
+import Predict_Test
 
 class Extractor():
     def __init__(self):
@@ -29,6 +30,7 @@ class Extractor():
         self.hardskills = self.load_skills('D:\\5THYEAR\\FYP\\jobMatch\\hardskills.txt')
         self.jb_distribution = self.build_ngram_distribution('D:\\5THYEAR\\FYP\\jobMatch\\tesla_job_description.txt')
         self.cv_distribution = self.build_ngram_distribution('D:\\5THYEAR\\FYP\\jobMatch\\my_resume2.txt')
+        self.cv = self.load_skills('D:\\5THYEAR\\FYP\\jobMatch\\my_resume2.txt')
         self.table = []
         # self.outFile = "D:\\5THYEAR\\FYP\\jobMatch\\Extracted_keywords.csv"
         self.outFile = "D:\\5THYEAR\\FYP\\jobMatch\\Detail\\"
@@ -181,7 +183,11 @@ class Extractor():
             # self.sheet1.write(1, 3, str(self.measure3(v1, v2)))
             print(self.count)
             # self.wb.save('D:\\5THYEAR\\FYP\\jobMatch\\xlwt example.xls')
-
+        print(self.cv[0]+"*************^^^^^^^^^^^^^^^^^^%%")
+        P = Predict_Test.Prediction()
+        personality = P.personality_Prediction(self.cv[0])
+        print("*************^^^^^^^^^ {ersonlaity^^^^^^^^^"+personality)
+        self.sheet1.write(self.count, rowCount+1, personality)
     def makeTable(self,num,sheet1,fileName):
         print("*** makeTable"+str(num))
         self.count = num

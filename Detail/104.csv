@@ -10,8 +10,8 @@ general,,1.0,214.0
 general,security,1.0,8.0
 general,knowledge,1.0,3.0
 general,work,1.0,3.0
-soft,team,1.0,2.0
 soft,experience,1.0,2.0
+soft,team,1.0,2.0
 general,3,1.0,2.0
 general,years,1.0,1.0
 general,frameworksql,1.0,0.6382672764499638
@@ -20,11 +20,11 @@ general,mvcjqueryangularentity frameworksql,1.0,0.5977993584428007
 general,mvcjqueryangularentity frameworksql serversql,1.0,0.58973760326865
 general,frameworksql serversql,1.0,0.5636050774549223
 general,ecommerce applications,1.0,0.5605136485632156
+hard,design,1.0,0.0
 hard,3 years,1.0,0.0
+hard,design patterns,1.0,0.0
 hard,programming,1.0,0.0
 hard,applications,1.0,0.0
-hard,design,1.0,0.0
-hard,design patterns,1.0,0.0
 hard,mobile,1.0,0.0
 soft,team player,1.0,0.0
 soft,ability,1.0,0.0
