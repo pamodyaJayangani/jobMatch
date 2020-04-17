@@ -232,7 +232,12 @@ X_tfidf = tfizer.fit_transform(X_cnt).toarray()
 
 feature_names = list(enumerate(cntizer.get_feature_names()))
 feature_names
+print("**************^^^^^^^^^^^^^^^^^")
+for x in range(len(feature_names)):
+    print (feature_names[x])
+    print(",")
 
+print("**************^^^^^^^^^^^^^^^^^")
 X_tfidf.shape
 print("X: Posts in tf-idf representation \n* 1st row:\n%s" % X_tfidf[0])
 
